@@ -1,0 +1,59 @@
+﻿table, tr, td 
+{
+    border:1px solid black;
+    border-collapse:collapse;
+    margin-left:4%;
+
+}
+#content {
+    display: flex;
+    flex-wrap:initial;
+}
+#text{
+    margin-left:4%;
+}
+h3 {
+    text-align: center;
+    background-color: dimgrey;
+    color: white;
+}
+a{
+    text-align:center;
+    color:black;
+    font-size:20px;
+}
+nav {
+    padding: 0;
+    height: 40px;
+    line-height: 30px;
+    background-color: dimgrey;
+    margin-bottom: 100px;
+}
+
+    nav#top ul {
+        list-style: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        background-color: dimgrey;
+    }
+
+
+    nav#top li {
+        font-size: 24px;
+        line-height: 40px;
+        display: inline-block;
+        padding: 20px;
+    }
+
+    nav#top a {
+        color: white;
+        text-decoration: none;
+    }
+
+li:hover {
+    background-color: darkgrey;
+}
+h1{
+    text-align:center;
+}
